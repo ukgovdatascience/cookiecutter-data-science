@@ -6,7 +6,6 @@ Project Goals
 * Provide project templates to quickstart Data Science research & development projects
 * Stop the use of filenames such as YYYYMMDD_data_exploration_v1_new_old_new_v34_final_new.sql
 
-
 ## Install guide
 
 Get cookiecutter (first time only)
@@ -27,9 +26,9 @@ remote: Compressing objects: 100% (15/15), done.
 remote: Total 24 (delta 9), reused 23 (delta 8), pack-reused 0
 Unpacking objects: 100% (24/24), done.
 Checking connectivity... done.
-full_name [Jarrod Vawdrey]:
-email [jvawdrey@pivotal.io]:
-client [Pivotal]:
+full_name [Matthew Upson]:
+email [gdsdatascience@digital.cabinet-office.gov.uk]:
+client [GDS]:
 project_name [My Data Science Project]:
 project_slug [my-data-science-project]:
 project_description [Data Science cookiecutter contains all the boilerplate you need to create a Data Science project.]:
@@ -50,7 +49,7 @@ $ git init
 $ git add -A
 
 # first commit
-$ git commit -m "init commit"
+$ git commit -m "Initial commit"
 ```
 
 ## Repo layout
@@ -64,13 +63,7 @@ $ git commit -m "init commit"
 * **/prod/tests:**  "Tests for prod code"
 * **/r:** R code for project
 * **/sql:** SQL scripts
-  * **/sql/udf-plpgsql:** PL/pgsql user defined functions
-  * **/sql/udf-plpythonu:** PL/pythonu user defined functions
-  * **/sql/udf-plsql:** PL/sql user defined functions
-  * **/sql/udf-plr:** PL/r user defined functions
 * **/tmp:** Temp files (Note - Files in this directory are ignored from Git repo)
-* **/twb:** Tableau workbooks
-
 
 ## File descriptions
 
@@ -100,17 +93,7 @@ $ git commit -m "init commit"
   * model-development.sql: This script is used to build (train) the model
   * model-scoring.sql: This script is used to apply model to new data (scoring)
   * model-update.sql: This script is used to update (retrain) model
-* **/sql/udf-plpgsql:**
-  * *filename: description*
-* **/sql/udf-plpythonu:**
-  * *filename: description*
-* **/sql/udf-plsql:**
-  * *filename: description*
-* **/sql/udf-plr:**
-  * *filename: description*
-* **/twb:**
-  * *filename: description*
 
 ## Contact
 
-* Jarrod Vawdrey (jvawdrey@pivotal.io)
+* Better Use of Data Team (gdsdatascience@digital.cabinet-office.gov.uk)
